@@ -13,7 +13,7 @@ const Hero = () => {
     <section className={`relative w-full h-screen mx-auto`}>
        {/*todo: animate this div*/}
        <div
-        className={`absolute inset-0 top-20  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 sm:top-20 top-16 mb-3 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
        >
           {/* The dot and the line */}
           <div className="flex flex-col justify-center items-center mt-5">
