@@ -31,9 +31,9 @@ const Hero = () => {
 
        {/*todo: add something here*/}
 
-       <div className='absolute inset-0 bottom-12 top-10 max-w-7xl mx-auto'>
-          <ComputersCanvas/>
-       </div>
+       <ComputersCanvas/>
+       {/*<div className='absolute inset-0 bottom-12 top-10 max-w-7xl mx-auto'>*/}
+       {/*</div>*/}
 
 
        <div
